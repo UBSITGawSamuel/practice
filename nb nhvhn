@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 1rem;
+
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 0.5rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    flex: 3;
+    padding: 1rem;
+}
+
+aside {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 1rem;
+    min-width: 200px;
+}
+
+
+@media (max-width: 768px) {
+
+section,aside {
+    flex: 100%;
+}
+
+.footer-column {
+    flex: 100%;
+}
+
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    
+    
+    
+    
+}
+
+h1 {
+    font-size: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    
+}
+
+div p {
+    margin-right: 20px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2980b9;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#site-header {
+    border-bottom: 3px solid#3498db;
+}
+
+#main-navigation a {
+    color: white;
+    margin-right: 1rem;
+}
+
+.highlight {
+    background-color: #ffeaa7;
+    padding: 0.5rem;
+    border-left: 3px solid #fdcb6e;
+}
+
+
+nav a:hover {
+    color: #f1c40f;
+}
+
+article p :first-of-type::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3498db;
+}
+
+section h2::before {
+    color: #3498db;
+    
+}
+
+li :nth-child(odd) {
+    background-color: none;
+   
+}
+
+.card {
+    background: white;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba (0,0,0,0,.1);
+}
+
+.button {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    backdrop-filter: blur(10px);
+}
+
+.button:hover {
+    background-color: #2980b9;
+    text-decoration: none;
+    color: white;
+}
