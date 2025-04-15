@@ -16,9 +16,13 @@
                 if (username === "admin" && password === "1234") {
                     errorMsg.style.display = "none";
                     // ✅ Redirect to your page (replace 'dashboard.html' with your page)
-                    window.location.href = "page2.html";
+                    window.location.href = "index.html";
                 } else {
                     errorMsg.style.display = "block";
                 }
             });
         });
+
+
+
+        
