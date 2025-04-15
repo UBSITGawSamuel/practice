@@ -274,4 +274,54 @@ nav {
 section {
   margin-bottom: 20px;
 }
+
+
+.login-container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+ margin-left: auto;
+ display: flex;
+
+  
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+ margin-right: 20px;
+  
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+ 
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+.login-container button:hover {
+  background-color: #2980b9;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  display: none;
+}
  
